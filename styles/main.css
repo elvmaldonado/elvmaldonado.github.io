@@ -3,7 +3,7 @@ html {
 }
 body {
     width: 1000px;
-    background-color: ghostwhite 100%;
+    background-color: ghostwhite;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin: 15px auto;
@@ -36,7 +36,11 @@ main {
     clear: left;
 }
 main h3{
-    margin-top: 3em;
+    margin-top: 3em 2em 1.5em;
+    border: 5px double blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px;
+    padding: 1em;
     font-size: 105%;
 }
 #list {
