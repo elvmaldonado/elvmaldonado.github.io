@@ -1,6 +1,6 @@
 /* Code */
 html {
-    background: linear-gradient(to left, #3498db, #2c3e50);
+    background-image: linear-gradient(to left, #3498db, #2c3e50);
 }
 
 body {
