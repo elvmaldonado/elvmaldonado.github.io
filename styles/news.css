@@ -6,8 +6,10 @@ body {
     margin: 15px auto;
 }
 article {
+    display: inline-block;
+    vertical-align: top;
     width: 75%;
-    margin: 0 auto; /
+    margin: 0 auto; 
 }
 aside {
     width: 20%;
