@@ -1,42 +1,53 @@
-html {
-    background-image: linear-gradient(to bottom, white 0%, silver 100%);
-}
-body {
-    width: 95%;
-    margin: 15px auto;
-}
-article {
-    display: inline-block;
-    vertical-align: top;
-    width: 75%;
-    margin: 0 auto; 
-}
-aside {
-    width: 20%;
-    position:fixed;
-}
-
 #nav_menu ul {
     list-style-type: none;
 }
-#nav_menu ul {
-    float:left;
+
+#nav_menu ul li {
+    float: left;
 }
+
 #nav_menu ul li a {
     text-align: center;
     display: block;
     width: 175px;
     padding: 1em 0;
-    text-decoration:none ;
+    text-decoration: none;
     background-color: blue;
     color: white;
     font-weight: bold;
     border-right: 2px solid white;
 }
 
-#nav_menu ul li a.lastitem { 
+#nav_menu ul li a.lastitem {
     border-right: none;
- }	
-#nav_menu ul li a.current { 
+}
+
+#nav_menu ul li a.current {
     color: yellow;
- }
+}
+
+body {
+    width: 95%;
+    margin: 15px auto;
+}
+
+article {
+    width: 75%;
+}
+
+aside {
+    width: 20%;
+    position: fixed;
+    top: 0;
+    overflow-y: auto;
+}
+
+aside ol {
+    list-style-type: upper-roman;
+}
+
+aside ul {
+    list-style-type: square;
+}
+
+/* Add additional styling for the lorem text, as per your requirements */
