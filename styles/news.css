@@ -73,6 +73,8 @@ html {
 article h2 {
     column-span: all;
     color: blue;
+    break-inside: avoid;
+    border-right: 2px dotted blue;
 }
 
 title {
