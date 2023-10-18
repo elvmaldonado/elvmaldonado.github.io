@@ -38,6 +38,7 @@ body {
 aside {
     width: 20%;
     position: fixed;
+    right: 10%;
     overflow-y: auto;
     right: 0;
     border: 3px solid darkgreen;
