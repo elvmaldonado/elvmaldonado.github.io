@@ -17,7 +17,12 @@
     font-weight: bold;
     border-right: 2px solid white;
 }
-
+article {
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+    margin: 0 auto; 
+}
 #nav_menu ul li a.lastitem {
     border-right: none;
 }
