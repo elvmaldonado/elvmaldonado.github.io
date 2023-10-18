@@ -71,6 +71,7 @@ html {
 }
 article h2 {
     column-span: all;
+    color: blue;
 }
 
 
