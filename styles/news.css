@@ -38,7 +38,7 @@ body {
 aside {
     width: 20%;
     position: fixed;
-    right: 0;
+    right: 10%;
     overflow-y: auto;
 }
 
@@ -49,5 +49,6 @@ aside ol {
 aside ul {
     list-style-type: square;
 }
+
 
 /* Add additional styling for the lorem text, as per your requirements */
