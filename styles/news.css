@@ -43,7 +43,6 @@ body {
 aside {
     width: 20%;
     position: fixed;
-    overflow-y: auto;
     float: right;
     border: 3px solid darkgreen;
     background-color: lightgreen;
