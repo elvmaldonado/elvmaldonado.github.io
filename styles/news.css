@@ -39,7 +39,7 @@ aside {
     width: 20%;
     position: fixed;
     overflow-y: auto;
-    right: 0;
+    left: 0;
     border: 3px solid darkgreen;
     background-color: lightgreen;
     padding: 10px;
