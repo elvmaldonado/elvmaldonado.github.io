@@ -38,7 +38,7 @@ body {
 aside {
     width: 20%;
     position: fixed;
-    top: 0;
+    right: 0;
     overflow-y: auto;
 }
 
