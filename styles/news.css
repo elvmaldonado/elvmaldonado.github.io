@@ -2,6 +2,7 @@
     list-style-type: none;
     padding: 1em;
     margin: 1em;
+    height: fit-content;
     border-bottom: 5px solid rgb(77, 9, 237);
 }
 
