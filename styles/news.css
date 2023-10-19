@@ -88,3 +88,7 @@ footer {
     border-top: 2px solid rgb(77, 9, 237);
     text-align: center;
 }
+article h1 {
+    text-align: left;
+    color:blue;
+}
