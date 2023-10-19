@@ -21,4 +21,7 @@
     font-weight: bold;
     border-right: 2px solid white;
 }
-    
+    ol {
+        list-style-type: upper-roman;
+    }
+    }
