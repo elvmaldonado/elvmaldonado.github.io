@@ -10,6 +10,7 @@
     float: left;
     margin-right: 2px; 
     position: relative;
+    border-bottom: 2px solid rgb(77, 9, 237);
 }
 
 #nav_menu ul li a {
