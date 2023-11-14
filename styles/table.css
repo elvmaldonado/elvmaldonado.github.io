@@ -36,6 +36,7 @@ html, body {
     }
     table .third {
         vertical-align: top;
+        border-collapse: collapse;
     }
     table .third thead tr:first-child{
         border-bottom: 2px solid orangered;
