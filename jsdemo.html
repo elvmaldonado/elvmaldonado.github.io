@@ -61,7 +61,11 @@
 }
 
 // Call the function to calculate and display the area
-calculateRectangleArea();
+var result = calculateRectangleArea(widthValue, heightValue);
+
+if (result !== null) {
+    alert("The area of the rectangle is: " + result);
+}
 </script>
 </body>
 </html>
