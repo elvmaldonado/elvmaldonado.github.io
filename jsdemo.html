@@ -37,35 +37,20 @@
         document.write(html2);
 </script>    
 <h1>The Rectangle Area Calculator</h1>
-<script>
-    function calculateRectangleArea() {
-    // Get width and height from the user
-    var widthInput = prompt("Enter the width of the rectangle:");
-    var heightInput = prompt("Enter the height of the rectangle:");
+<script>let total = 0;
 
-    // Convert input to floating-point numbers
-    var width = parseFloat(widthInput);
-    var height = parseFloat(heightInput);
+    const score1 = parseInt(prompt("Enter the width"));
+    total += score1;        
+    
+    const score2 = parseInt(prompt("Enter the height"));
+    total += score2;
 
-    // Check if the inputs are valid numbers
-    if (isNaN(width) || isNaN(height)) {
-        alert("Please enter valid numbers for width and height.");
-        return;
-    }
-
-    // Calculate the area of the rectangle
-    var area = width * height;
-
-    // Display the result rounded to 3 decimal points
-    alert("The area of the rectangle is: " + area.toFixed(3));
-}
-
-// Call the function to calculate and display the area
-var result = calculateRectangleArea(widthValue, heightValue);
-
-if (result !== null) {
-    alert("The area of the rectangle is: " + result);
-}
+    const average = parseInt(total*3);
+    
+    const html1 = `<p>Width = ${score1}</p>
+                  <p>Height = ${score2}</p>
+                  <p>Area = ${average}</p>`;
+    document.write(html1);</script>
 </script>
 </body>
 </html>
